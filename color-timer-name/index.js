@@ -11,7 +11,7 @@ function generateRandomColor() {
   }
 
 function changeBackgroundColor(){
-    let bg = document.getElementById("color-section");
+    let bg = document.getElementById("random-color-section");
     bg.style.backgroundColor = generateRandomColor();
 }
   
