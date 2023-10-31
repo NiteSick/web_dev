@@ -1,10 +1,10 @@
-import heroImage from '../images/groupImage.png'
+
 export default function Hero(){
     return(
         <div className='hero-main-div'>
         <img 
         className='hero-image'
-        src={heroImage} 
+        src="images/groupImage.png" 
         alt="This is a hero imge" />
 
         <h1 className='hero-heading'>Online Experiences</h1>
