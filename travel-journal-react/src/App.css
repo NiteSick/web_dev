@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbar-logo{
+height: 24px;
+width: 24px;
+margin: 10px;
+}
+
+.card{
+  
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  
+  height: 168px;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.card-image{
+  display: block;
+  width: 100%;
+ 
+}
+.card-discription{
+ 
+  display: flex;
+  flex-direction: column;
+ justify-content: space-around;
+ 
+
+}
+.card-top-info{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  
+ 
+}
+.card-location-image{
+  height: 9px;
+  width: 7px;
+}
+.card-place-name{
+  font-size: 25px;
+  background-color: green;
+  
+}
+.card-place-discription{
+  font-size: 15px;
+}
+
+
